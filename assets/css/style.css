@@ -4,9 +4,7 @@
 
 /* website border */
 
-main {
-  border: 5px solid blanchedalmond;
-  }
+
 
 /* Title Name */
 
@@ -46,29 +44,20 @@ nav {
   background-color: rgb(147, 184, 226);
 }
 
-a {
-  display: inline;
-  margin: 5px;
-  padding: 5px;
-  
- color: blanchedalmond;
-}
+
 
 /* box labels */
+.flex {
+  display: flex;
+  display: list-item;
+}
 
-.box {
+.programs {
+  background-image: url("../images/s1.bmp");
+}
 
-position: relative;
-font-size: 250%;
-background-color: rgb(70, 114, 155);
-width: 200px;
-height: 50px;
-line-height: 50px;
-left: 10px;
-color: blanchedalmond;
-border: 2px solid black;
 
-} 
+
 
 /* about me paragraph */
 
@@ -76,8 +65,7 @@ ul,
 li
  { 
   font-family:'Times New Roman', Times, serif;
-  background-color:blanchedalmond;
-  color: rgb(56, 56, 99);
+  color: rgb(0, 0, 0);
   font-size: 25px;
   position: relative;
   left: 125px;
@@ -86,62 +74,7 @@ li
 
  /* work categories */
 
-.label {
-  position: relative;
-  left: 250px;
-  background-color: gainsboro;
-  width: 1000px;
-}
 
-.label2 {
-
-  position: relative;
-
-  bottom: 325px;
-  left: 400px;
-}
-
-#programs {
-position: relative;
-color: blanchedalmond;
-font-size: 25px;
-left: 10px;
-top: 100px;
-width: 280px;
-height: 60px;
-
-
-}
-
-#music {
-position: relative;
-color:blanchedalmond;
-font-size: 25px;
-left: 10px;
-top: 100px;
-height: 60px;
-width: 280px;
-}
-
-#art {
-  position: relative;
-  color: blanchedalmond;
-  font-size: 25px;
-  left: 10px;
-  top: 100px;
-  height: 60px;
-  width: 280px;
-}
-
-#gaming {
-  position: relative;
-  color: blanchedalmond;
-  font-size: 25px;
-  left: 10px;
-  top: 100px;
-  height: 60px;
-  width: 280px;
-}
 
 /* category hovering */
 
